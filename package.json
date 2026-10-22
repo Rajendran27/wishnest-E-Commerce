@@ -29,7 +29,7 @@
     "start": "concurrently \"npm run start-react\" \"npm run start-json\"",
     "start-react": "react-scripts start",
     "start-json": "concurrently \"json-server --watch Json/Beauty.json --port 3006\" \"json-server --watch Json/Electronics.json --port 3004\" \"json-server --watch Json/Kitchen.json --port 3007\" \"json-server --watch Json/Fashion.json --port 3005\" \"json-server --watch Json/Mobile.json --port 3003\" \"json-server --watch Json/Sports.json --port 3008\" \"json-server --watch Json/Furniture.json --port 3009\" \"json-server --watch Json/Toys.json --port 3010\"",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
