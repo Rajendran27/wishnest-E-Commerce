@@ -1,0 +1,119 @@
+{
+  "Beauty": [
+    {
+      "id": "34",
+      "name": "MINARA Nude Eye Shadow Palette and Rose Gold (18+18 colors) 36 g ",
+      "price": 138,
+      "dateAdded": "2025-10-15",
+      "description": "Color Range: 18 shades including mattes, metallics, and pressed pearls. Shades range from neutral tones to bold reds and pinks. Pigmentation.",
+      "image": "https://www.makeupbymario.com/cdn/shop/files/sku_21001032_01.jpg?v=1713554987&width=2000",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": "35",
+      "name": "Lakmé 9to5 Powerplay Priming Matte Lipstick  (DeepWine, 3.6 g)",
+      "price": 329,
+      "dateAdded": "2025-10-14",
+      "description": " Introducing Lakme 9TO5 Primer+Matte Lipstick, with 2x built-in primer that gives your lips a long-lasting, smooth matte finish.",
+      "image": "https://www.colorbarcosmetics.com/media/catalog/product/1/_/1_74.jpg?optimize=low&bg-color=255,255,255&fit=bounds&height=&width=",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": "36",
+      "name": "Lakmé Eyeconc Smudgeproof, Waterproof Kajal Pencil  (Deep Black, 0.35 g)",
+      "price": 169,
+      "dateAdded": "2025-10-14",
+      "description": "If you're looking for a reliable kajal that can elevate your eye makeup game, the Lakme Eyeconic Kajal, Deep Black 0.35gm, is the perfect solution.",
+      "image": "https://media6.ppl-media.com//tr:h-750,w-750,c-at_max,dpr-2,q-40/static/img/product/225282/aya-single-apply-long-lasting-eye-liner-kajal-pencil-black_1_display_1718869886_515f3800.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": "37",
+      "name": "Lakmé Forever Matte Face Powder, Matte Finish, Oil Cointrol, for rosy glow Compact  (Warm pink, 80 g)",
+      "gender": "kids",
+      "price": "699",
+      "dateAdded": "2025-1-15",
+      "description": "If you're looking for a reliable kajal that can elevate your eye makeup game, the Lakme Eyeconic Kajal, Deep Black 0.35gm, is the perfect solution.",
+      "image": "https://media6.ppl-media.com//tr:h-750,w-750,c-at_max,dpr-2,q-40/static/img/product/350783/lakme-sun-expert-ultra-matte-spf-40-pa-compact-7-g-7-gm_1_display_1686829719_cf9be1c9.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 235
+      }
+    },
+    {
+      "id": "38",
+      "name": "Dazller Mini Glam 8in1 kit |Foundation,kajal, Eyeliner,Eyebrow,Mascara,Compact,lipcolour(2) |Water-resistance |Long stay.",
+      "price": 56.99,
+      "description": "This all-inclusive full face beauty collection of 8 stunning products is designed to accentuate your features and take your natural beauty to dazzling heights",
+      "image": "https://m.media-amazon.com/images/I/51MEiOBduCL._SY300_SX300_QL70_FMwebp_.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": "39",
+      "name": "COLORS QUEEN Affair Matte Nail Polish Set of 3, Quick Drying, Long Lasting Nail Paint Kit Rouge, Mellow Coral, Latte  (Pack of 3)",
+      "price": 29.95,
+      "description": "Level up your nail polish game with Colors Queen Matte Affair Nail Polish Combo Pack of 3, a stunning range of 64 gorgeous shades that span the spectrum from sultry reds and timeless nudes to playful pinks, mysterious violets, and blues.",
+      "image": "https://m.media-amazon.com/images/I/31PPLkDvHeL._SY300_SX300_QL70_FMwebp_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": "40",
+      "name": "BBlunt Hot Shot Heat Protection Mist with Grapeseed Oil & Provitamin B5 - 150 ml Hair Spray  (150 ml)",
+      "price": 39.99,
+      "description": "A revolutionary heat protection spray, the BBLUNT Hot Shot Heat Protection Mist shields your hair from any damage caused by heat styling tools such as straighteners, blow dryers, and curling rods. It is a weightless heat protection hair mist that prepares your locks for a great styling session.",
+      "image": "https://m.media-amazon.com/images/I/31QPoCk5vVL._SY300_SX300_QL70_FMwebp_.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": "41",
+      "name": "NANCY AJRAM X IMAGIC Eyelash Kit , Handmade 3D Mink silky lash lifting False Eye Lashes  (Pack of 10) ",
+      "price": 9.85,
+      "description": "the NANCY AJRAM X IMAGIC Eyelash Kit, the ultimate solution for achieving mesmerizing eyes with stunning lashes. Our kit features Handmade 3D Mink silky lash lifting False Eye Lashes, designed to enhance your natural beauty effortlessly.",
+      "image": "https://m.media-amazon.com/images/I/61RnjoZVdrL._SX466_PIbundle-10,TopRight,0,0_AA466SH20_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": "42",
+      "name": "rezmay Beauty Promo Rose Gold & Nude Eyeshadow Palette + Makeup Brushes & Sponges Set 36 g.",
+      "price": 7.95,
+      "description": "Enjoy this beautiful combo of 2 EyeShadows which has both light and dark shades for all your needs along with a product in the combo.",
+      "image": "https://m.media-amazon.com/images/I/41MW9VAArGL._SX300_SY300_QL70_FMwebp_.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": "43",
+      "name": "Lakmé Unreal Blurfect Primer - 10 ml  (Peach)",
+      "price": 12.99,
+      "description": "Lakme is Indias No.1 color cosmetics brand offering a wide range of high-end, world-class color cosmetics and skincare products. Lakme has a vast product range specially crafted by experts for the Indian skin. ",
+      "image": "https://m.media-amazon.com/images/I/3102PVI8PEL._SY300_SX300_QL70_FMwebp_.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    }
+  ]
+}

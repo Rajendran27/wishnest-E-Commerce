@@ -1,0 +1,174 @@
+.page-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(180deg, #ffffff, #1e293b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  animation: fadeIn 1s ease;
+}
+
+/* Main Card Layout */
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 75%;
+  max-width: 1000px;
+  height: 550px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(18px);
+  border-radius: 40px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  overflow: hidden;
+  animation: slideUp 0.8s ease-out;
+  position: relative;
+}
+
+/* Left side form */
+.form-section {
+  flex: 1;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-section h2 {
+  text-align: center;
+  /* color: #ffffff; */
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.input-field {
+  margin-bottom: 18px !important;
+}
+
+/* File upload field */
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  color: #e2e8f0;
+  margin-top: 12px;
+}
+
+.file-upload label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.file-upload input {
+  border: 1.5px dashed rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.file-upload input:hover {
+  border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+}
+
+/* Right side preview */
+.preview-section {
+  flex: 1;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.25);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.preview-img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(56, 189, 248, 0.4);
+  animation: zoomIn 0.5s ease;
+  object-fit: contain;
+}
+
+.placeholder-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Bottom button — fixed position inside card */
+.submit-btn {
+  position: absolute !important;
+  bottom: 30px;
+  right: 50%;
+  transform: translateX(50%);
+  background: linear-gradient(90deg, #2563eb, #38bdf8) !important;
+  font-weight: 600 !important;
+  padding: 12px 60px !important;
+  border-radius: 30px !important;
+  box-shadow: 0 4px 20px rgba(56, 189, 248, 0.4);
+  text-transform: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #1d4ed8, #0ea5e9) !important;
+  transform: translateX(50%) scale(1.05);
+  box-shadow: 0 6px 25px rgba(56, 189, 248, 0.5);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.edit-btn{
+  position: absolute !important;
+  bottom: 30px;
+  right: 50%;
+  transform: translateX(50%);
+  background: linear-gradient(90deg, #2563eb, #38bdf8) !important;
+  font-weight: 600 !important;
+  padding: 12px 60px !important;
+  border-radius: 30px !important;
+  box-shadow: 0 4px 20px rgba(56, 189, 248, 0.4);
+  text-transform: none !important;
+  transition: all 0.3s ease !important;
+  width: 300px !important;
+}

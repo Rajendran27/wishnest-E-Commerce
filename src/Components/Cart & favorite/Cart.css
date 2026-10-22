@@ -1,0 +1,247 @@
+/* Quantity Controls */
+.quantity-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.quantity-box button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background: #1976d2;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quantity-box button:hover {
+  background: #1565c0;
+}
+
+.quantity-box span {
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
+  min-width: 25px;
+  text-align: center;
+}
+
+/* Delete Icon (bottom-right corner) */
+.delete-btn {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: #ffebee;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d32f2f;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 8px;
+  margin-right: 4px;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+  color: #fff;
+}
+
+.buy-btn-cart{
+  width: 60%;
+  padding: 8px 0;
+  border: none;
+  border-radius: 10px;
+  margin: 4px 0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #2e7d32;
+  color: #fff;
+}
+
+.buy-btn:hover {
+  background: #256428;
+}
+
+/* layout */
+.cart-page {
+  margin-left: 240px;
+  margin-top: 64px;
+  padding: 20px;
+}
+.heading {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+/* main layout */
+.cart-layout {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* left (use your existing .grid-container/.card styles) */
+.cart-items {
+  flex: 2;
+}
+
+/* summary card (right) */
+.cart-summary {
+  flex: 1;
+  border: 3px solid #000;
+  border-radius: 36px;
+  padding: 28px;
+  box-sizing: border-box;
+  background: #fff;
+  min-width: 280px;
+  max-width: 360px;
+}
+
+/* heading centered */
+.summary-title {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+/* rows */
+.summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  padding: 4px 6px;
+}
+
+/* right aligned numeric values */
+.summary-value {
+  min-width: 70px;
+  text-align: right;
+}
+
+/* coupon */
+.coupon-section {
+  margin-top: 8px;
+}
+.coupon-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.coupon-row {
+  display: flex;
+  gap: 8px;
+}
+.coupon-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+.coupon-input:disabled {
+  background: #f2f2f2;
+}
+.coupon-btn {
+  padding: 8px 12px;
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.coupon-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.coupon-applied-text {
+  font-size: 13px;
+  margin-top: 6px;
+  color: #007700;
+}
+
+/* total */
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  font-weight: 700;
+  font-size: 16px;
+}
+.total-label { }
+.total-value {
+  min-width: 80px;
+  text-align: right;
+}
+
+/* checkout button */
+.checkout-btn {
+  margin-top: 14px;
+  width: 100%;
+  padding: 12px 8px;
+  border-radius: 6px;
+  background: #fff;
+  border: 3px solid #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* small helpers */
+.empty-text { text-align: center; margin-top: 50px; font-size: 16px; color: #666; }
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  color: #555;
+}
+
+.empty-cart-icon {
+  font-size: 80px !important;
+  color: #b0b0b0;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  animation: float 2s ease-in-out infinite;
+}
+
+.empty-cart-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444;
+  text-align: center;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}

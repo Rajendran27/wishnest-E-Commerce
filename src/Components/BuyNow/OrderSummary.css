@@ -1,0 +1,174 @@
+/* === Layout === */
+.order-summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 20px;
+  min-height: 80vh;
+  background-color: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+}
+
+.order-products {
+  flex: 2;
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.empty-text {
+  text-align: center;
+  color: #777;
+  font-size: 0.95rem;
+}
+
+/* === Product Items === */
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.order-item-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.order-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.order-item-name {
+  font-weight: 600;
+  margin: 0;
+}
+
+.order-item-qty {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 2px 0;
+}
+
+.order-item-price {
+  color: green;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* === Summary Box === */
+.summary-box {
+  flex: 1;
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+
+.summary-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #000;
+  font-size: 1.2rem;
+}
+
+.summary-details {
+  line-height: 1.8rem;
+  font-size: 0.95rem;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.discount {
+  color: green;
+}
+
+.coupon-row {
+  color: green;
+}
+
+.divider {
+  margin: 15px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* === Buttons === */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.back-btn {
+  border-radius: 10px !important;
+  border-color: #000 !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+}
+
+.back-btn:hover {
+  background-color: #f2f2f2 !important;
+}
+
+.next-btn {
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  background-color: #000 !important;
+}
+
+.next-btn:hover {
+  background-color: #333 !important;
+}
+
+/* === Responsive === */
+@media (max-width: 900px) {
+  .order-summary-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .order-products,
+  .summary-box {
+    width: 100%;
+  }
+
+  .summary-box {
+    position: static;
+  }
+}
